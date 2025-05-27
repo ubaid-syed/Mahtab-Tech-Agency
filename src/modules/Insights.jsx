@@ -566,9 +566,9 @@ const Insights = () => {
         className="absolute inset-0 bg-black"
         style={{
           maskImage:
-            "radial-gradient(circle 170px at var(--x, 50%) var(--y, 50%), transparent, black 70%)",
+            "radial-gradient(circle 350px at var(--x, 50%) var(--y, 50%), transparent, black 70%)",
           WebkitMaskImage:
-            "radial-gradient(circle 170px at var(--x, 50%) var(--y, 50%), transparent, black 70%)",
+            "radial-gradient(circle 350px at var(--x, 50%) var(--y, 50%), transparent, black 70%)",
         }}
       />
 
@@ -597,12 +597,12 @@ const Insights = () => {
         {/* Right side */}
         <div className="flex flex-col gap-10 sm:mt-32 md:mt-1" ref={rightRef}>
           <Box
-            title="Webflow development"
-            description="Using the leading no-code platform, Webflow, we develop completely custom and production-ready websites and applications worthy of awards."
+            title="WordPress development"
+            description="Using the leading no-code platform, WordPress, we develop completely custom and production-ready websites and applications worthy of awards."
             image="https://cdn.prod.website-files.com/659e31f41269f42141b25976/65aa457ae5f0988c126d0af1_automation_img.webp"
           />
           <Box
-            title="Migration to Webflow"
+            title="Migration to WordPress"
             description="We can effortlessly migrate your website to Webflow, opening up endless possibilities for growth."
             image="https://cdn.prod.website-files.com/659e31f41269f42141b25976/65aa469aed981c68b74d314e_migration_img.webp"
           />

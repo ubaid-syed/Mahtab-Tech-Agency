@@ -351,7 +351,7 @@ const teamSteps = [
     title: "Development",
     description:
       "Implementing designs seamlessly and with pixel-perfect accuracy & creatively tweaking the flow to match the design concept.",
-    skills: ["Webflow", "Javascript", "GSAP", "WordPress", "Shopify"],
+    skills: ["WordPress", "Webflow", "Shopify", "Wix", "Javascript", "GSAP"],
   },
   {
     id: 4,
@@ -437,9 +437,9 @@ const Team = () => {
         className="absolute inset-0 bg-black"
         style={{
           maskImage:
-            "radial-gradient(circle 120px at var(--x, 50%) var(--y, 50%), transparent, black 70%)",
+            "radial-gradient(circle 350px at var(--x, 50%) var(--y, 50%), transparent, black 70%)",
           WebkitMaskImage:
-            "radial-gradient(circle 120px at var(--x, 50%) var(--y, 50%), transparent, black 70%)",
+            "radial-gradient(circle 350px at var(--x, 50%) var(--y, 50%), transparent, black 70%)",
         }}
       />
       <div className="flex flex-col lg:flex-row relative lg:gap-20">
